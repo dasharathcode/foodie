@@ -11,14 +11,14 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>DELVARIO – Premium Fashion & Streetwear</title>
+        <title>GARAI WEAR – Premium Fashion & Streetwear</title>
         <meta
           name="description"
-          content="Shop DELVARIO’s latest collection of streetwear and premium fashion. Discover bestsellers, stylish hoodies, and more."
+          content="Shop GARAI WEAR’s latest collection of streetwear and premium fashion. Discover bestsellers, stylish hoodies, and more."
         />
         <meta
           name="keywords"
-          content="delvario, fashion, streetwear, hoodie, t-shirt, online shopping, best seller clothes"
+          content="GARAI WEAR , jama pan, fashion, streetwear, hoodie, t-shirt, online shopping, best seller clothes"
         />
         <link rel="canonical" href="https://www.delvario.com/" />
 
