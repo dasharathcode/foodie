@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://delvario.com/</loc>
+    <loc>https://garaiwear.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://delvario.com/about</loc>
+    <loc>https://garaiwear.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://delvario.com/cart</loc>
+    <loc>https://garaiwear.com/cart</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://delvario.com/collection</loc>
+    <loc>https://garaiwear.com/collection</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://delvario.com/contact</loc>
+    <loc>https://garaiwear.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://delvario.com/login</loc>
+    <loc>https://garaiwear.com/login</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://delvario.com/orders</loc>
+    <loc>https://garaiwear.com/orders</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -41,12 +41,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://delvario.com/product</loc>
+    <loc>https://garaiwear.com/product</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://delvario.com/verify</loc>
+    <loc>https://garaiwear.com/verify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.delvario.com/sitemap.xml
+Sitemap: https://www.garaiwear/sitemap.xml
