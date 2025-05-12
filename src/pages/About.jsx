@@ -14,11 +14,11 @@ const About = () => {
       <div className='my-10 flex flex-col md:flex-row gap-16'>
         <img className='w-full md:max-w-[450px]' src={assets.about_jpg} alt="" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
-          <p>I’m Dasharath Garai, the founder of Delvario. I started this brand in 2025 with a simple yet powerful idea:
+          <p>I’m Dasharath Garai, the founder of Garai Wear. I started this brand in 2025 with a simple yet powerful idea:
 
             “Everyone deserves to wear premium, stylish clothing — without spending a fortune.”
 
-            Born and built in West Bengal, Delvario is more than just a clothing label. It’s a promise of quality, comfort, and care — all delivered with a personal touch.</p>
+            Born and built in West Bengal, Garai Wear is more than just a clothing label. It’s a promise of quality, comfort, and care — all delivered with a personal touch.</p>
           <p>What makes us different?
 
             ✨ Premium Packaging – because first impressions matter.
@@ -29,15 +29,15 @@ const About = () => {
 
             💬 Personal Customer Care – real support, no bots. Ever.</p>
           <b className='text-gray-800'>Our Mission</b>
-          <p>Delvario is just getting started. We’re working toward opening physical stores soon — so you can feel the fabric, try the fit, and experience the warmth of our brand in person.
+          <p>Garai Wear is just getting started. We’re working toward opening physical stores soon — so you can feel the fabric, try the fit, and experience the warmth of our brand in person.
 
-            Whether you're dressing for yourself, for work, or for someone you love — Delvario is here to serve you with honesty, care, and creativity.
+            Whether you're dressing for yourself, for work, or for someone you love — Garai Wear is here to serve you with honesty, care, and creativity.
 
             Thank you for being part of our journey.
 
             With love,
             Dasharath
-            Founder, Delvario</p>
+            Founder, Garai Wear</p>
         </div>
       </div>
 
@@ -58,7 +58,7 @@ const About = () => {
         </div>
         <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
           <b>🧡 Personalized Customer Care</b>
-          <p className=' text-gray-600'>Delvario isn’t a factory brand — it’s a family. From order to delivery, we stay connected with every customer and ensure your satisfaction at every step.</p>
+          <p className=' text-gray-600'>Garai Wear isn’t a factory brand — it’s a family. From order to delivery, we stay connected with every customer and ensure your satisfaction at every step.</p>
         </div>
       </div>
 

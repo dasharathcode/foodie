@@ -18,9 +18,9 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="GARAI WEAR , jama pan, fashion, streetwear, hoodie, t-shirt, online shopping, best seller clothes"
+          content="GARAI WEAR , West Bengal fashion brand, jama pan, fashion, streetwear, hoodie, t-shirt, online shopping, best seller clothes,trendy T-shirts in Bengal,Garai Wear garments Howrah"
         />
-        <link rel="canonical" href="https://www.delvario.com/" />
+        <link rel="canonical" href="https://www.garaiwear.com/" />
 
       </Helmet>
 

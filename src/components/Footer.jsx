@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <img src={assets.logo} className= 'w-[10rem] mb-[0.5rem]' alt="" />
             <p className='w-full md:w-2/3 text-gray-600'>
-            "Delvario is a premium fashion brand born in the heart of West Bengal, where every piece is crafted with love, care, and top-quality standards. We don't just deliver clothes — we deliver an experience. Our customer care is something we take great pride in, always ready to support you with warmth and honesty. And if you're located within PIN 722207, your order will be hand-delivered by me personally within the same day — because to us, you're not just a customer, you're family. With premium packaging, curated style, and a personal touch — this is Delvario.
+            "Garai Wear is a premium fashion brand born in the heart of West Bengal, where every piece is crafted with love, care, and top-quality standards. We don't just deliver clothes — we deliver an experience. Our customer care is something we take great pride in, always ready to support you with warmth and honesty. And if you're located within PIN 722207, your order will be hand-delivered by me personally within the same day — because to us, you're not just a customer, you're family. With premium packaging, curated style, and a personal touch — this is Garai Wear.
             </p>
         </div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
             <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
             <ul className='flex flex-col gap-1 text-gray-600'>
                 <li>+91 8436026797</li>
-                <li>contact.delvario@gmail.com</li>
+                <li>contact.garaiwear@gmail.com</li>
             </ul>
         </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
 
         <div>
             <hr />
-            <p className='py-5 text-sm text-center'>Copyright 2025@ Delvario.com - All Right Reserved.</p>
+            <p className='py-5 text-sm text-center'>Copyright 2025@garaiwear.com - All Right Reserved.</p>
         </div>
 
     </div>

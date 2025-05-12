@@ -23,9 +23,9 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-xl text-gray-600'>Our Store</p>
           <p className=' text-gray-500'>722207  Sonamukhi <br /> Bankura, West Bengal, <br />India </p>
-          <p className=' text-gray-500'>Tel: 8436026797 <br /> Email: contact.delvario@gmail.com</p>
+          <p className=' text-gray-500'>Tel: 8436026797 <br /> Email: contact.garaiwear@gmail.com</p>
           <p className='font-semibold text-xl text-gray-600'>customer support</p>
-          <p className=' text-gray-500'>Have a question or need help? Just reach out — we’re always here for you. At Delvario, support isn’t just service, it’s care. No bots, no waiting — just real people, ready to help like family.</p>
+          <p className=' text-gray-500'>Have a question or need help? Just reach out — we’re always here for you. At Garai Wear, support isn’t just service, it’s care. No bots, no waiting — just real people, ready to help like family.</p>
 
           {/* WhatsApp support button with icon */}
           <a href={whatsappURL} target="_blank" rel="noopener noreferrer">

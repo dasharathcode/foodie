@@ -18,7 +18,7 @@ const BestSeller = () => {
       <div className='text-center text-3xl py-8'>
         <Title text1={'BEST'} text2={'SELLERS'}/>
         <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-        "Delvario-r best seller collection e royeche trendi design ebong premium quality. Ekhoni check korun!"
+        "Garai Wear-r best seller collection e royeche trendi design ebong premium quality. Ekhoni check korun!"
         
         </p>
       </div>
