@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
 
         <div>
-            <img src={assets.mainlogo} className='mb-5 w-48' alt="" />
+            <img src={assets.logo} className='mb-5 w-48' alt="" />
             <p className='w-full md:w-2/3 text-gray-600'>
             "Delvario is a premium fashion brand born in the heart of West Bengal, where every piece is crafted with love, care, and top-quality standards. We don't just deliver clothes — we deliver an experience. Our customer care is something we take great pride in, always ready to support you with warmth and honesty. And if you're located within PIN 722207, your order will be hand-delivered by me personally within the same day — because to us, you're not just a customer, you're family. With premium packaging, curated style, and a personal touch — this is Delvario.
             </p>
