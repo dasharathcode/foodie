@@ -1,36 +1,55 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
+import { assets } from '../assets/assets'  // adjust path if Hero.jsx is in components
+
+
+
 const Hero = () => {
   const [bannerUrl, setBannerUrl] = useState('')
 
   useEffect(() => {
-    // Replace URL with your actual backend endpoint
     axios.get('https://delvrio.onrender.com/api/banner')
       .then(res => setBannerUrl(res.data.imageUrl))
       .catch(err => console.log(err))
   }, [])
 
   return (
-    <div className='flex flex-col sm:flex-row border border-gray-400'>
-      {/* Hero Left Side */}
-      <div className='w-full sm:w-1/2 flex items-center justify-center py-10 sm:py-0'>
-        <div className='text-[#414141]'>
-          <div className='flex items-center gap-2'>
-            <p className='w-8 md:w-11 h-[2px] bg-[#414141]'></p>
-            <p className=' font-medium text-sm md:text-base'>Check Collection Page </p>
-          </div>
-          <h1 className='prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed'>Latest Arrivals</h1>
-          <div className='flex items-center gap-2'>
-            <p className='font-semibold text-sm md:text-base'>SHOP NOW</p>
-            <p className='w-8 md:w-11 h-[1px] bg-[#414141]'></p>
-          </div>
+    <section className="bg-cover bg-center py-20 px-4 sm:px-10" style={{
+     
+    }}>
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+
+        {/* Left Side: Text */}
+        <div className="text-center md:text-left max-w-xl">
+          <p className="text-orange-500 text-xl font-shadows mb-4">Eat Sleep And</p>
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+            Supper delicious chicken biryani!
+          </h1>
+          <p className="text-[rgb(255 96 0);] mb-6">
+            Food is any substance consumed to provide nutritional support for an organism.
+          </p>
+
+
+          <a
+            href="#footer"
+            className="inline-block bg-orange-500 hover:bg-white hover:text-black transition-all duration-300 text-white font-semibold px-6 py-3 rounded"
+          >
+            Book A Table
+          </a>
+        </div>
+
+        {/* Right Side: Dynamic Image */}
+        <div className="max-w-lg">
+          {bannerUrl && (
+            <img src={bannerUrl} alt="Hero Dish" className="w-full rounded-lg " />
+          )}
         </div>
       </div>
-      {/* Hero Right Side */}
-      {bannerUrl && <img className='w-full sm:w-1/2' src={bannerUrl} alt="Hero Banner" />}
-    </div>
+    </section>
   )
 }
 
 export default Hero
+
+
