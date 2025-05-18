@@ -74,6 +74,8 @@ import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 import about_jpg from './about.jpg'
+import footer_illustration from './footer-illustration.png';
+import delivery_boy from './delivery-boy.svg';
 
 
 export const assets = {
@@ -96,6 +98,8 @@ export const assets = {
     stripe_logo,
     cross_icon,
     loh,mainlogo,about_jpg,
+     footer_illustration,
+       delivery_boy
     
 }
 
